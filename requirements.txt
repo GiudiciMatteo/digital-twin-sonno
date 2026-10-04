@@ -1,0 +1,15 @@
+# Dipendenze Python del progetto.
+# Prima del rilascio con DOI, fissare le versioni esatte con:
+#     pip freeze > requirements.txt
+# così la riproducibilità è ancorata alle versioni effettivamente usate.
+
+# --- runtime (src/) ---
+requests
+paho-mqtt
+influxdb-client
+
+# --- analisi (analysis/) ---
+pandas
+numpy
+scipy
+matplotlib

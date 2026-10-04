@@ -1,0 +1,51 @@
+# =============================================================
+#  config.ini — ESEMPIO (template)
+#  Copiare questo file in "config.ini" (stessa cartella) e
+#  compilare i valori reali. Il file config.ini NON va versionato
+#  (è già in .gitignore): contiene credenziali.
+# =============================================================
+
+[mqtt]
+host = 192.168.x.x
+port = 1883
+user = CHANGE_ME
+password = CHANGE_ME
+topic = sonno/#
+
+[influx]
+url = http://localhost:8086
+token = CHANGE_ME
+org = tesi
+bucket = sonno
+
+[studio]
+# Condizione sperimentale corrente: baseline | attiva | controllo
+# Va aggiornata quando inizia la fase randomizzata.
+condizione = baseline
+# Ora locale oltre la quale i dati appartengono alla notte del giorno dopo
+# (convenzione Withings: la notte 25->26 si etichetta '...-26').
+night_cutoff_hour = 12
+# Offset ora locale rispetto a UTC (2 = legale, 1 = solare). I timestamp
+# restano in UTC: serve solo a calcolare l'etichetta della notte.
+local_tz_offset_hours = 2
+
+[daikin]
+host = 192.168.x.x
+
+[hue]
+bridge = 192.168.x.x
+api_key = CHANGE_ME
+gruppo = 6
+
+[audio]
+# Percorso ASSOLUTO del file di rumore bianco (non incluso nel repo:
+# vedi sound/README.md). Esempio:
+file = /percorso/assoluto/sound/white_noise.mp3
+volume = 0.3
+
+[poller]
+intervallo_secondi = 10
+
+[vincoli]
+temp_min = 19.0
+temp_max = 28.0

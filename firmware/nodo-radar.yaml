@@ -1,0 +1,142 @@
+# =============================================================
+#  NODO 1 — Radar mmWave 60 GHz  (Seeed MR60BHA2 + XIAO ESP32C6)
+#  Progetto: Digital Twin del sonno
+#  Pubblica via MQTT (nessuna dipendenza da Home Assistant)
+#
+#  Firmware del MODULO RADAR verificato via query UART (TinyFrame 0xFFFF):
+#  risposta 04 01 06 0C  ->  versione 1.6.12 (ultima ufficiale Seeed).
+#  Questa configurazione riguarda la XIAO ESP32C6.
+#
+#  NB: configurazione CONGELATA per la durata dell'esperimento.
+#      Non modificare i filtri dei sensori fino a fine raccolta,
+#      per mantenere i dati confrontabili tra le notti.
+# =============================================================
+
+substitutions:
+  name: "nodo-radar"
+  friendly_name: "Nodo radar letto"
+
+esphome:
+  name: "${name}"
+  friendly_name: "${friendly_name}"
+  min_version: "2024.6.0"
+
+esp32:
+  board: esp32-c6-devkitc-1
+  variant: esp32c6
+  flash_size: 4MB
+  framework:
+    type: esp-idf
+
+# ---------- Log ----------
+# USB_SERIAL_JTAG obbligatorio: la UART hardware e' occupata dal radar.
+# INFO in esercizio (DEBUG solo in diagnosi: rallenta e sporca i log).
+logger:
+  hardware_uart: USB_SERIAL_JTAG
+  level: INFO
+
+ota:
+  - platform: esphome
+    password: !secret ota_password
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+  ap:
+    ssid: "nodo-radar-fallback"
+    password: !secret ap_password
+
+captive_portal:
+
+# ---------- MQTT verso il Mac (192.168.x.x) ----------
+mqtt:
+  broker: !secret mqtt_broker
+  port: 1883
+  username: !secret mqtt_user
+  password: !secret mqtt_password
+  topic_prefix: sonno/nodo_radar
+  discovery: false
+
+# ---------- UART verso il modulo radar ----------
+uart:
+  id: uart_bus
+  baud_rate: 115200
+  rx_pin: 17
+  tx_pin: 16
+  parity: NONE
+  stop_bits: 1
+
+seeed_mr60bha2:
+  id: my_seeed_mr60bha2
+  uart_id: uart_bus
+
+# ---------- Sensori del radar ----------
+# throttle 2s su tutti i canali: verificato empiricamente che riduce
+# gli avvisi "took a long time" alleggerendo il ciclo ESPHome.
+sensor:
+  - platform: seeed_mr60bha2
+    breath_rate:
+      name: "Frequenza respiratoria"
+      id: resp_rate
+      accuracy_decimals: 2
+      filters:
+        - throttle: 2s
+    heart_rate:
+      name: "Frequenza cardiaca"
+      id: heart_rate
+      accuracy_decimals: 2
+      filters:
+        - throttle: 2s
+    distance:
+      name: "Distanza bersaglio"
+      id: distanza
+      accuracy_decimals: 3
+      filters:
+        - throttle: 2s
+    num_targets:
+      name: "Numero bersagli"
+      id: n_target
+      filters:
+        - throttle: 2s
+
+  - platform: wifi_signal
+    name: "WiFi RSSI"
+    update_interval: 60s
+
+  - platform: uptime
+    name: "Uptime"
+    update_interval: 60s
+
+# ---------- Presenza rilevata ----------
+binary_sensor:
+  - platform: seeed_mr60bha2
+    has_target:
+      name: "Presenza rilevata"
+      id: presenza
+      filters:
+        - delayed_on_off: 2s      # riduce il rimbalzo ON/OFF e il carico di pubblicazione
+
+# ---------- Bus I2C (BH1750 presente sul kit, non attivato) ----------
+i2c:
+  - id: bus_a
+    sda: GPIO22
+    scl: GPIO23
+    scan: true
+
+# ---------- Diagnostica ----------
+text_sensor:
+  - platform: version
+    name: "Versione ESPHome"
+  - platform: wifi_info
+    ip_address:
+      name: "Indirizzo IP"
+
+# ---------- Tempo: tutto in UTC ----------
+time:
+  - platform: sntp
+    id: ora
+    timezone: UTC
+    servers:
+      - 0.pool.ntp.org
+      - 1.pool.ntp.org
+      - 2.pool.ntp.org

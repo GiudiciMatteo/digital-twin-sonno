@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Se usi questo software o questi dati, cita come segue."
+title: "Digital Twin del sonno a ciclo chiuso: monitoraggio mmWave e attuazione ambientale"
+authors:
+  - family-names: "Giudici"
+    given-names: "Matteo"
+type: software
+license: MIT
+# Compilare al momento del rilascio su Zenodo:
+version: "1.0.0"
+date-released: "2026-01-01"
+# doi: "10.5281/zenodo.XXXXXXX"
+# url: "https://github.com/UTENTE/digital-twin-sonno"
+keywords:
+  - "digital twin"
+  - "sleep monitoring"
+  - "mmWave radar"
+  - "closed-loop control"
+  - "n-of-1"
