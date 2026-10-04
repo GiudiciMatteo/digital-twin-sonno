@@ -41,10 +41,8 @@ sicurezza e modifica l'ambiente, senza intervento manuale durante la notte.
 ```
 firmware/   configurazioni ESPHome dei nodi + secrets.yaml.example
 src/        codice Python di runtime + config.ini.example
-analysis/   script di analisi che rigenerano figure e tabelle (da aggiungere)
-data/       dati sperimentali (diario de-identificato + export da aggiungere)
+data/       dati sperimentali + SCHEMA_influxdb.md (struttura del database)
 sound/      posizione del file di rumore bianco (non incluso: copyright)
-figures/    output vettoriali delle figure
 ```
 
 ## Configurazione
@@ -85,9 +83,15 @@ python3 src/controllore.py --controllo   # notte di controllo (solo monitoraggio
 
 ## Dati e riproducibilità
 
-Il diario del sonno è de-identificato (`data/diario_sonno.csv`). Gli export
-InfluxDB di radar e controllore vanno aggiunti in `data/` per riprodurre le
-analisi del Capitolo 4 (vedi `data/README.md`).
+Il diario del sonno è de-identificato (`data/diario_sonno.csv`). La struttura
+del database (organization, bucket, measurements, tag, campi) e le istruzioni
+per ricrearlo sono in `data/SCHEMA_influxdb.md`. Gli export InfluxDB di radar e
+controllore possono essere aggiunti in `data/` (vedi `data/README.md`).
+
+Gli script di analisi che generano le figure e le statistiche della tesi
+**non sono inclusi** in questo repository: esso documenta il sistema (firmware,
+raccolta dati, controllo a ciclo chiuso) e ne rende disponibili i dati e lo
+schema, non la pipeline di elaborazione.
 
 **Sicurezza.** Da questo repository sono stati esclusi credenziali, token,
 password e identificativi di rete dei dispositivi. I file `config.ini` e
