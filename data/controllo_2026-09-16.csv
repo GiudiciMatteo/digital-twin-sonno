@@ -1,0 +1,922 @@
+timestamp_utc,measurement,field,value
+2026-09-15T22:32:51.005828Z,fase,value_text,NOTTE_ATTIVA_inizio
+2026-09-15T22:32:52.997652Z,clima_temp_partenza_motivo,value_text,temperatura BME al letto all'avvio
+2026-09-15T22:32:53.312878Z,clima_accendi_motivo,value_text,"BME 25.09 - 1.5 = 23.59 -> setpoint 23.5 (floor 21.0, vent 4)"
+2026-09-15T22:32:53.438018Z,audio_avvia_motivo,value_text,rumore bianco pre-sonno
+2026-09-15T22:32:53.549215Z,fase,value_text,tramonto_inizio
+2026-09-15T22:32:53.577897Z,fase,value_text,monitoraggio_sonno_inizio
+2026-09-15T22:32:53.597895Z,fase,value_text,fase_notte_termostato
+2026-09-15T22:32:53.624241Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T22:32:53.67759Z,sonno_non_osservabile_motivo,value_text,pochi campioni distanza (1)
+2026-09-15T22:32:53.7565Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T22:32:54.340725Z,luci_tramonto_start,value_text,bri=100
+2026-09-15T22:32:54.488131Z,luci_tramonto_start_motivo,value_text,ambra 40%
+2026-09-15T22:33:32.07114Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T22:33:32.128555Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; IQR distanza alto (17.2cm)
+2026-09-15T22:33:52.082929Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T22:34:53.39503Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T22:35:52.129038Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T22:36:52.154357Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T22:37:52.17653Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T22:38:42.195926Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T22:38:42.209455Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T22:38:52.210477Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T22:38:52.223008Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; IQR distanza alto (23.0cm)
+2026-09-15T22:38:52.234732Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T22:39:12.227921Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T22:39:12.239317Z,sonno_non_osservabile_motivo,value_text,distanza non recente (19s)
+2026-09-15T22:39:22.244158Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T22:39:22.263385Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; IQR distanza alto (23.0cm)
+2026-09-15T22:39:52.256215Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T22:40:52.457887Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T22:41:22.78939Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T22:41:22.802717Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T22:41:32.353601Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T22:41:32.365464Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; range distanza p10-p90 alto (103.3cm)
+2026-09-15T22:41:52.355249Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T22:42:52.401227Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T22:43:52.459955Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T22:44:22.482001Z,sonno_possible_sleep,value_text,3.0min
+2026-09-15T22:44:22.883067Z,sonno_possible_sleep_motivo,value_text,candidato sonno: fermo: dist med=103.3cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR non plausibile 1.0
+2026-09-15T22:44:52.504179Z,sonno_stato_rilevatore,value_text,POSSIBLE_SLEEP
+2026-09-15T22:45:27.794526Z,luci_spegni_motivo,value_text,spegnimento reale
+2026-09-15T22:45:27.976821Z,fase,value_text,tramonto_fine
+2026-09-15T22:45:52.562001Z,sonno_non_osservabile,value_text,POSSIBLE_SLEEP
+2026-09-15T22:45:52.597496Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T22:45:52.608313Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T22:46:52.604034Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T22:47:52.650805Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T22:48:32.730655Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T22:48:32.740919Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; range distanza p10-p90 alto (103.3cm)
+2026-09-15T22:48:42.72984Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T22:48:42.748413Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T22:48:52.736995Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T22:49:42.776879Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T22:49:42.803468Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; range distanza p10-p90 alto (97.6cm)
+2026-09-15T22:49:52.778394Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T22:50:42.819907Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T22:50:42.889208Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T22:50:52.82923Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T22:51:52.881272Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T22:52:52.932512Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T22:53:52.982807Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T22:54:02.987175Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T22:54:02.999439Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; range distanza p10-p90 alto (74.6cm)
+2026-09-15T22:54:12.996147Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T22:54:13.006246Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T22:54:53.016934Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T22:55:13.029377Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T22:55:13.053014Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; IQR distanza alto (74.6cm)
+2026-09-15T22:55:23.041217Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T22:55:23.047188Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T22:55:33.049575Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T22:55:33.062683Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; IQR distanza alto (74.6cm)
+2026-09-15T22:55:43.062966Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T22:55:43.082024Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T22:55:53.069366Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T22:56:53.124151Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T22:57:13.139699Z,sonno_segnale_recuperato,value_text,AWAKE
+2026-09-15T22:57:13.187076Z,sonno_segnale_recuperato_motivo,value_text,radar recuperato; riparto dalla veglia; fermo: dist med=0.0cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR non plausibile 0.0
+2026-09-15T22:57:33.157537Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T22:57:33.182796Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T22:57:53.171535Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T22:58:53.219865Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T22:59:53.279636Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:00:53.31443Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:01:33.345056Z,sonno_segnale_recuperato,value_text,AWAKE
+2026-09-15T23:01:33.3548Z,sonno_segnale_recuperato_motivo,value_text,radar recuperato; riparto dalla veglia; fermo: dist med=0.0cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR non plausibile 0.0
+2026-09-15T23:01:53.35837Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:02:13.381617Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T23:02:13.394867Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T23:02:52.140102Z,audio_ferma_motivo,value_text,fine pre-sonno
+2026-09-15T23:02:52.978639Z,audio_timeout_motivo,value_text,rumore bianco fermato dopo 30 min senza sleep onset
+2026-09-15T23:02:53.1693Z,clima_spegni_motivo,value_text,"tetto 30 min di accensione raggiunto (BME 23.9, target non raggiunto)"
+2026-09-15T23:02:53.408176Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:03:53.457735Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:04:03.467438Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T23:04:03.482568Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; range distanza p10-p90 alto (74.6cm)
+2026-09-15T23:04:53.506188Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:05:33.773726Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T23:05:33.782384Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T23:05:53.763096Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:06:53.596156Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:07:53.649346Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:08:43.698216Z,sonno_segnale_recuperato,value_text,AWAKE
+2026-09-15T23:08:43.722489Z,sonno_segnale_recuperato_motivo,value_text,radar recuperato; riparto dalla veglia; fermo: dist med=0.0cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR non plausibile 2.0
+2026-09-15T23:08:53.702583Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T23:08:53.72069Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T23:08:53.739371Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:09:53.756402Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:10:23.781Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T23:10:23.806354Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; range distanza p10-p90 alto (80.4cm)
+2026-09-15T23:10:43.790338Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T23:10:43.806413Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T23:10:53.804991Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T23:10:53.849411Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; IQR distanza alto (80.4cm)
+2026-09-15T23:10:53.862616Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:11:53.857348Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:12:33.889913Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T23:12:33.904811Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T23:12:53.913105Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:13:33.94269Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T23:13:33.957991Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; IQR distanza alto (74.6cm)
+2026-09-15T23:13:53.946715Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:14:53.995783Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:15:24.017869Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T23:15:24.032755Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T23:15:54.044623Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:16:24.063562Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T23:16:24.090934Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; range distanza p10-p90 alto (74.6cm)
+2026-09-15T23:16:54.099399Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:17:54.248954Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:18:34.160895Z,sonno_possible_sleep,value_text,3.0min
+2026-09-15T23:18:34.215902Z,sonno_possible_sleep_motivo,value_text,candidato sonno: fermo: dist med=68.9cm IQR=0.0cm p10-p90=5.7cm shift=0.0cm; RR plausibile 11.0
+2026-09-15T23:18:54.184858Z,sonno_stato_rilevatore,value_text,POSSIBLE_SLEEP
+2026-09-15T23:19:44.213464Z,sonno_non_osservabile,value_text,POSSIBLE_SLEEP
+2026-09-15T23:19:44.223392Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T23:19:54.218638Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:20:44.246724Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T23:20:44.278901Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; IQR distanza alto (74.6cm)
+2026-09-15T23:20:52.419174Z,protezione_blocco,value_text,min_30_da_spegnimento
+2026-09-15T23:20:52.477857Z,protezione_blocco_motivo,value_text,BME 24.5>=target+1.0 ma solo 18 min dallo spegnimento
+2026-09-15T23:20:54.277222Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:21:14.278269Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T23:21:14.300826Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T23:21:52.430981Z,protezione_blocco,value_text,min_30_da_spegnimento
+2026-09-15T23:21:52.452117Z,protezione_blocco_motivo,value_text,BME 24.5>=target+1.0 ma solo 19 min dallo spegnimento
+2026-09-15T23:21:54.3031Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:22:52.530994Z,protezione_blocco,value_text,min_30_da_spegnimento
+2026-09-15T23:22:52.539736Z,protezione_blocco_motivo,value_text,BME 24.6>=target+1.0 ma solo 20 min dallo spegnimento
+2026-09-15T23:22:54.339032Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:23:34.370555Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T23:23:34.384105Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; range distanza p10-p90 alto (68.9cm)
+2026-09-15T23:23:44.378066Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T23:23:44.399498Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T23:23:52.464736Z,protezione_blocco,value_text,min_30_da_spegnimento
+2026-09-15T23:23:52.475032Z,protezione_blocco_motivo,value_text,BME 24.6>=target+1.0 ma solo 21 min dallo spegnimento
+2026-09-15T23:23:54.392009Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:24:52.454744Z,protezione_blocco,value_text,min_30_da_spegnimento
+2026-09-15T23:24:52.479651Z,protezione_blocco_motivo,value_text,BME 24.6>=target+1.0 ma solo 22 min dallo spegnimento
+2026-09-15T23:24:54.433492Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:25:52.463185Z,protezione_blocco,value_text,min_30_da_spegnimento
+2026-09-15T23:25:52.477485Z,protezione_blocco_motivo,value_text,BME 24.6>=target+1.0 ma solo 23 min dallo spegnimento
+2026-09-15T23:25:54.462987Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:26:52.470949Z,protezione_blocco,value_text,min_30_da_spegnimento
+2026-09-15T23:26:52.489662Z,protezione_blocco_motivo,value_text,BME 24.6>=target+1.0 ma solo 24 min dallo spegnimento
+2026-09-15T23:26:54.501073Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:27:52.663141Z,protezione_blocco,value_text,min_30_da_spegnimento
+2026-09-15T23:27:52.674961Z,protezione_blocco_motivo,value_text,BME 24.6>=target+1.0 ma solo 25 min dallo spegnimento
+2026-09-15T23:27:54.529546Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:28:52.483599Z,protezione_blocco,value_text,min_30_da_spegnimento
+2026-09-15T23:28:52.498107Z,protezione_blocco_motivo,value_text,BME 24.7>=target+1.0 ma solo 26 min dallo spegnimento
+2026-09-15T23:28:54.574561Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:29:52.482898Z,protezione_blocco,value_text,min_30_da_spegnimento
+2026-09-15T23:29:52.496038Z,protezione_blocco_motivo,value_text,BME 24.7>=target+1.0 ma solo 27 min dallo spegnimento
+2026-09-15T23:29:54.617614Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:30:52.495606Z,protezione_blocco,value_text,min_30_da_spegnimento
+2026-09-15T23:30:52.518342Z,protezione_blocco_motivo,value_text,BME 24.7>=target+1.0 ma solo 28 min dallo spegnimento
+2026-09-15T23:30:54.656847Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:31:52.498726Z,protezione_blocco,value_text,min_30_da_spegnimento
+2026-09-15T23:31:52.518208Z,protezione_blocco_motivo,value_text,BME 24.7>=target+1.0 ma solo 29 min dallo spegnimento
+2026-09-15T23:31:54.708939Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:32:44.751619Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T23:32:44.764216Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; range distanza p10-p90 alto (80.4cm)
+2026-09-15T23:32:52.689971Z,clima_riaccendi_motivo,value_text,"BME 24.7>=target+1.0, passati >=30 min dallo spegnimento"
+2026-09-15T23:32:54.756768Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:33:54.805786Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:34:54.855181Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:35:24.870106Z,sonno_possible_sleep,value_text,3.0min
+2026-09-15T23:35:24.886989Z,sonno_possible_sleep_motivo,value_text,candidato sonno: fermo: dist med=74.6cm IQR=0.0cm p10-p90=5.7cm shift=0.0cm; RR non plausibile 3.0
+2026-09-15T23:35:54.889241Z,sonno_stato_rilevatore,value_text,POSSIBLE_SLEEP
+2026-09-15T23:36:14.911544Z,sonno_reset_immobilita,value_text,3.8min
+2026-09-15T23:36:14.961173Z,sonno_reset_immobilita_motivo,value_text,IQR distanza alto (11.5cm)
+2026-09-15T23:36:54.938646Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:37:54.979882Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:38:45.033817Z,sonno_possible_sleep,value_text,3.0min
+2026-09-15T23:38:45.047792Z,sonno_possible_sleep_motivo,value_text,candidato sonno: fermo: dist med=86.1cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR plausibile 6.0
+2026-09-15T23:38:55.044537Z,sonno_stato_rilevatore,value_text,POSSIBLE_SLEEP
+2026-09-15T23:39:55.104529Z,sonno_stato_rilevatore,value_text,POSSIBLE_SLEEP
+2026-09-15T23:40:15.112979Z,sonno_reset_immobilita,value_text,4.5min
+2026-09-15T23:40:15.127826Z,sonno_reset_immobilita_motivo,value_text,IQR distanza alto (11.5cm)
+2026-09-15T23:40:55.159235Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:41:05.15163Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T23:41:05.175078Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T23:41:55.181343Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:42:55.600472Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:43:25.255119Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T23:43:25.271678Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; IQR distanza alto (97.6cm)
+2026-09-15T23:43:55.280501Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:44:55.340796Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:45:55.375305Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:46:55.40087Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:47:35.431064Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T23:47:35.476096Z,sonno_non_osservabile_motivo,value_text,distanza non recente (18s)
+2026-09-15T23:47:45.438772Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T23:47:45.45047Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; range distanza p10-p90 alto (74.6cm)
+2026-09-15T23:47:55.441111Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:48:55.487698Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:49:55.526164Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:50:05.537846Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T23:50:05.552581Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T23:50:55.577244Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:51:15.595768Z,sonno_segnale_recuperato,value_text,AWAKE
+2026-09-15T23:51:15.603715Z,sonno_segnale_recuperato_motivo,value_text,radar recuperato; riparto dalla veglia; fermo: dist med=0.0cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR non plausibile 1.0
+2026-09-15T23:51:25.603513Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T23:51:25.622322Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T23:51:55.630593Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:52:55.679222Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T23:52:55.699628Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; IQR distanza alto (23.0cm)
+2026-09-15T23:52:55.736203Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:53:55.731063Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:54:55.824198Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:55:55.823378Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-15T23:56:05.82648Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T23:56:05.85991Z,sonno_non_osservabile_motivo,value_text,distanza non recente (14s)
+2026-09-15T23:56:15.841149Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-15T23:56:15.858135Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; IQR distanza alto (17.2cm)
+2026-09-15T23:56:45.863897Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-15T23:56:45.894922Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-15T23:56:55.87374Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:57:55.905792Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:58:55.952203Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-15T23:59:55.993781Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:00:56.042151Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:01:06.039834Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-16T00:01:06.070041Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; range distanza p10-p90 alto (91.8cm)
+2026-09-16T00:01:16.046324Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-16T00:01:16.06388Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T00:01:26.059752Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-16T00:01:26.070045Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; IQR distanza alto (86.1cm)
+2026-09-16T00:01:56.073233Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-16T00:02:52.849802Z,clima_spegni_motivo,value_text,"tetto 30 min di accensione raggiunto (BME 23.7, target non raggiunto)"
+2026-09-16T00:02:56.177559Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-16T00:03:56.17878Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-16T00:04:56.219447Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-16T00:05:16.241805Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-16T00:05:16.255156Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T00:05:56.270984Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:06:16.286979Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-16T00:06:16.310462Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; IQR distanza alto (74.6cm)
+2026-09-16T00:06:26.287621Z,sonno_non_osservabile,value_text,AWAKE
+2026-09-16T00:06:26.31048Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T00:06:36.301417Z,sonno_segnale_recuperato_movimento,value_text,AWAKE
+2026-09-16T00:06:36.314272Z,sonno_segnale_recuperato_movimento_motivo,value_text,recupero in movimento dalla veglia; IQR distanza alto (74.6cm)
+2026-09-16T00:06:56.306215Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-16T00:07:56.356127Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-16T00:08:56.389565Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-16T00:09:26.414776Z,sonno_possible_sleep,value_text,3.0min
+2026-09-16T00:09:26.435986Z,sonno_possible_sleep_motivo,value_text,candidato sonno: fermo: dist med=68.9cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR non recente (134s)
+2026-09-16T00:09:56.444359Z,sonno_stato_rilevatore,value_text,POSSIBLE_SLEEP
+2026-09-16T00:10:56.512008Z,sonno_stato_rilevatore,value_text,POSSIBLE_SLEEP
+2026-09-16T00:11:56.550897Z,sonno_stato_rilevatore,value_text,POSSIBLE_SLEEP
+2026-09-16T00:12:26.572138Z,sonno_addormentamento_rilevato,value_text,6.0min
+2026-09-16T00:12:26.604323Z,sonno_addormentamento_rilevato_motivo,value_text,presenza + immobilita confermate; fermo: dist med=68.9cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR non recente (314s)
+2026-09-16T00:12:56.597963Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T00:13:56.647084Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T00:14:56.697584Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T00:15:56.752053Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T00:16:56.779291Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T00:17:56.836385Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T00:18:57.453963Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T00:19:16.984875Z,sonno_possible_awake,value_text,movimento
+2026-09-16T00:19:17.200831Z,sonno_possible_awake_motivo,value_text,movimento durante il sonno; IQR distanza alto (11.5cm)
+2026-09-16T00:19:56.968357Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T00:20:06.950494Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T00:20:07.16754Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=86.1cm IQR=5.7cm p10-p90=11.5cm shift=0.0cm; RR plausibile 20.0
+2026-09-16T00:20:16.932383Z,sonno_possible_awake,value_text,movimento
+2026-09-16T00:20:16.956231Z,sonno_possible_awake_motivo,value_text,movimento durante il sonno; cambio posizione persistente (8.6cm)
+2026-09-16T00:20:26.943552Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T00:20:26.964107Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=86.1cm IQR=5.7cm p10-p90=11.5cm shift=5.7cm; RR plausibile 16.0
+2026-09-16T00:20:56.96684Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T00:21:56.997775Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T00:22:57.066245Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T00:23:17.074005Z,sonno_non_osservabile,value_text,ASLEEP
+2026-09-16T00:23:17.091381Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T00:23:57.121526Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:24:17.121166Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T00:24:17.135879Z,sonno_segnale_recuperato_movimento_motivo,value_text,IQR distanza alto (91.8cm)
+2026-09-16T00:24:27.124516Z,sonno_non_osservabile,value_text,POSSIBLE_AWAKE
+2026-09-16T00:24:27.145961Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T00:24:57.144627Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:25:27.160923Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T00:25:27.213306Z,sonno_segnale_recuperato_movimento_motivo,value_text,IQR distanza alto (91.8cm)
+2026-09-16T00:25:57.181584Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T00:26:17.193496Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T00:26:17.204269Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=91.8cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR plausibile 17.0
+2026-09-16T00:26:53.374851Z,protezione_blocco,value_text,min_30_da_spegnimento
+2026-09-16T00:26:53.390218Z,protezione_blocco_motivo,value_text,BME 24.5>=target+1.0 ma solo 24 min dallo spegnimento
+2026-09-16T00:26:57.239937Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T00:27:47.261229Z,sonno_non_osservabile,value_text,ASLEEP
+2026-09-16T00:27:47.289089Z,sonno_non_osservabile_motivo,value_text,distanza non recente (20s)
+2026-09-16T00:27:53.025981Z,protezione_blocco,value_text,min_30_da_spegnimento
+2026-09-16T00:27:53.044796Z,protezione_blocco_motivo,value_text,BME 24.5>=target+1.0 ma solo 25 min dallo spegnimento
+2026-09-16T00:27:57.273848Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:28:07.280391Z,sonno_segnale_recuperato,value_text,ASLEEP
+2026-09-16T00:28:07.295374Z,sonno_segnale_recuperato_motivo,value_text,radar recuperato senza evidenza di risveglio; fermo: dist med=91.8cm IQR=0.0cm p10-p90=5.7cm shift=0.0cm; RR plausibile 18.0
+2026-09-16T00:28:53.042206Z,protezione_blocco,value_text,min_30_da_spegnimento
+2026-09-16T00:28:53.057517Z,protezione_blocco_motivo,value_text,BME 24.5>=target+1.0 ma solo 26 min dallo spegnimento
+2026-09-16T00:28:57.312832Z,sonno_non_osservabile,value_text,ASLEEP
+2026-09-16T00:28:57.327387Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T00:28:57.337301Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:29:07.317163Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T00:29:07.338588Z,sonno_segnale_recuperato_movimento_motivo,value_text,range distanza p10-p90 alto (91.8cm)
+2026-09-16T00:29:17.306476Z,sonno_non_osservabile,value_text,POSSIBLE_AWAKE
+2026-09-16T00:29:17.323687Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T00:29:27.306815Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T00:29:27.32361Z,sonno_segnale_recuperato_movimento_motivo,value_text,range distanza p10-p90 alto (91.8cm)
+2026-09-16T00:29:53.012401Z,protezione_blocco,value_text,min_30_da_spegnimento
+2026-09-16T00:29:53.02358Z,protezione_blocco_motivo,value_text,BME 24.6>=target+1.0 ma solo 27 min dallo spegnimento
+2026-09-16T00:30:07.328662Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T00:30:07.344321Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=86.1cm IQR=5.7cm p10-p90=5.7cm shift=5.7cm; RR plausibile 18.0
+2026-09-16T00:30:07.381675Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T00:30:17.335721Z,sonno_possible_awake,value_text,movimento
+2026-09-16T00:30:17.354353Z,sonno_possible_awake_motivo,value_text,movimento durante il sonno; range distanza p10-p90 alto (17.2cm)
+2026-09-16T00:30:53.016923Z,protezione_blocco,value_text,min_30_da_spegnimento
+2026-09-16T00:30:53.031759Z,protezione_blocco_motivo,value_text,BME 24.6>=target+1.0 ma solo 28 min dallo spegnimento
+2026-09-16T00:31:07.368907Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T00:31:17.376431Z,sonno_non_osservabile,value_text,POSSIBLE_AWAKE
+2026-09-16T00:31:17.388191Z,sonno_non_osservabile_motivo,value_text,distanza non recente (13s)
+2026-09-16T00:31:27.544742Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T00:31:27.555625Z,sonno_segnale_recuperato_movimento_motivo,value_text,range distanza p10-p90 alto (17.2cm)
+2026-09-16T00:31:47.634247Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T00:31:47.642808Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=74.6cm IQR=5.7cm p10-p90=11.5cm shift=5.7cm; RR non plausibile 1.0
+2026-09-16T00:31:53.027763Z,protezione_blocco,value_text,min_30_da_spegnimento
+2026-09-16T00:31:53.041178Z,protezione_blocco_motivo,value_text,BME 24.6>=target+1.0 ma solo 29 min dallo spegnimento
+2026-09-16T00:32:07.457938Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T00:32:53.099352Z,clima_riaccendi_motivo,value_text,"BME 24.6>=target+1.0, passati >=30 min dallo spegnimento"
+2026-09-16T00:33:07.46879Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T00:33:57.513349Z,sonno_non_osservabile,value_text,ASLEEP
+2026-09-16T00:33:57.537945Z,sonno_non_osservabile_motivo,value_text,distanza non recente (13s)
+2026-09-16T00:34:07.530323Z,sonno_segnale_recuperato,value_text,ASLEEP
+2026-09-16T00:34:07.544198Z,sonno_segnale_recuperato_motivo,value_text,radar recuperato senza evidenza di risveglio; fermo: dist med=80.4cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR non plausibile 1.0
+2026-09-16T00:34:07.552806Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T00:35:07.570588Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T00:36:07.626717Z,sonno_non_osservabile,value_text,ASLEEP
+2026-09-16T00:36:07.641393Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T00:36:07.655929Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:37:07.674199Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T00:37:07.682007Z,sonno_segnale_recuperato_movimento_motivo,value_text,IQR distanza alto (80.4cm)
+2026-09-16T00:37:07.690511Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T00:37:17.683018Z,sonno_non_osservabile,value_text,POSSIBLE_AWAKE
+2026-09-16T00:37:17.696305Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T00:38:07.719549Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:39:07.763705Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:39:57.792917Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T00:39:57.805892Z,sonno_segnale_recuperato_movimento_motivo,value_text,range distanza p10-p90 alto (80.4cm)
+2026-09-16T00:40:07.800791Z,sonno_non_osservabile,value_text,POSSIBLE_AWAKE
+2026-09-16T00:40:07.811136Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T00:40:07.823688Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:41:07.843197Z,sonno_segnale_recuperato,value_text,ASLEEP
+2026-09-16T00:41:07.853664Z,sonno_segnale_recuperato_motivo,value_text,radar recuperato senza evidenza di risveglio; fermo: dist med=0.0cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR non plausibile 1.0
+2026-09-16T00:41:07.860086Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T00:41:17.849408Z,sonno_possible_awake,value_text,movimento
+2026-09-16T00:41:17.864571Z,sonno_possible_awake_motivo,value_text,movimento durante il sonno; range distanza p10-p90 alto (68.9cm)
+2026-09-16T00:41:27.861725Z,sonno_non_osservabile,value_text,POSSIBLE_AWAKE
+2026-09-16T00:41:27.875135Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T00:41:37.872602Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T00:41:37.892539Z,sonno_segnale_recuperato_movimento_motivo,value_text,IQR distanza alto (68.9cm)
+2026-09-16T00:42:07.899669Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T00:42:47.940818Z,sonno_non_osservabile,value_text,POSSIBLE_AWAKE
+2026-09-16T00:42:47.94928Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T00:43:07.937098Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:43:47.971679Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T00:43:47.986673Z,sonno_segnale_recuperato_movimento_motivo,value_text,range distanza p10-p90 alto (80.4cm)
+2026-09-16T00:44:08.293661Z,sonno_non_osservabile,value_text,POSSIBLE_AWAKE
+2026-09-16T00:44:08.307641Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T00:44:08.316048Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:45:08.021979Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:46:08.073398Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:46:18.079223Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T00:46:18.095948Z,sonno_segnale_recuperato_movimento_motivo,value_text,range distanza p10-p90 alto (80.4cm)
+2026-09-16T00:46:28.089439Z,sonno_non_osservabile,value_text,POSSIBLE_AWAKE
+2026-09-16T00:46:28.107398Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T00:47:08.108032Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:48:08.159592Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:49:08.210918Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:50:08.250539Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:50:38.277204Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T00:50:38.293643Z,sonno_segnale_recuperato_movimento_motivo,value_text,range distanza p10-p90 alto (114.8cm)
+2026-09-16T00:50:48.279156Z,sonno_non_osservabile,value_text,POSSIBLE_AWAKE
+2026-09-16T00:50:48.293808Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T00:50:58.286707Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T00:50:58.305629Z,sonno_segnale_recuperato_movimento_motivo,value_text,IQR distanza alto (114.8cm)
+2026-09-16T00:51:08.286381Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T00:51:38.308298Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T00:51:38.326185Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=114.8cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR non recente (52s)
+2026-09-16T00:52:08.336628Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T00:53:08.381048Z,sonno_non_osservabile,value_text,ASLEEP
+2026-09-16T00:53:08.403318Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T00:53:08.411896Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:54:08.430301Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:55:08.484543Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:56:08.642597Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:57:08.56576Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:57:28.575004Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T00:57:28.587148Z,sonno_segnale_recuperato_movimento_motivo,value_text,range distanza p10-p90 alto (91.8cm)
+2026-09-16T00:57:38.578513Z,sonno_non_osservabile,value_text,POSSIBLE_AWAKE
+2026-09-16T00:57:38.590769Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T00:58:08.593642Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T00:59:08.625794Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T01:00:08.671466Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T01:01:08.717571Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T01:01:28.727375Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T01:01:28.74456Z,sonno_segnale_recuperato_movimento_motivo,value_text,range distanza p10-p90 alto (97.6cm)
+2026-09-16T01:02:08.764648Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T01:02:38.790433Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T01:02:38.82146Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=77.5cm IQR=5.7cm p10-p90=5.7cm shift=5.7cm; RR plausibile 17.0
+2026-09-16T01:02:53.340292Z,clima_spegni_motivo,value_text,"tetto 30 min di accensione raggiunto (BME 23.7, target non raggiunto)"
+2026-09-16T01:03:08.81522Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:04:08.871469Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:05:08.91042Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:06:08.951133Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:07:09.016394Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:08:09.041865Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:09:09.089101Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:10:09.130316Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:11:09.179965Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:12:09.223297Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:12:59.254832Z,sonno_non_osservabile,value_text,ASLEEP
+2026-09-16T01:12:59.267554Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T01:13:09.259041Z,sonno_segnale_recuperato,value_text,ASLEEP
+2026-09-16T01:13:09.291925Z,sonno_segnale_recuperato_motivo,value_text,radar recuperato senza evidenza di risveglio; fermo: dist med=74.6cm IQR=0.0cm p10-p90=5.7cm shift=0.0cm; RR plausibile 25.0
+2026-09-16T01:13:09.307345Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:13:19.271268Z,sonno_non_osservabile,value_text,ASLEEP
+2026-09-16T01:13:19.283698Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T01:14:09.307164Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T01:14:19.316056Z,sonno_segnale_recuperato,value_text,ASLEEP
+2026-09-16T01:14:19.328036Z,sonno_segnale_recuperato_motivo,value_text,radar recuperato senza evidenza di risveglio; fermo: dist med=68.9cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR plausibile 17.0
+2026-09-16T01:15:09.359816Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:16:09.410663Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:17:09.446657Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:18:09.498411Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:19:09.53634Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:20:09.575583Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:21:09.617514Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:22:09.671353Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:23:09.73398Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:24:09.788426Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:25:09.817488Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:26:09.8518Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:27:09.890984Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:28:09.951595Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:29:10.012227Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:30:10.037715Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:30:53.518911Z,protezione_blocco,value_text,min_30_da_spegnimento
+2026-09-16T01:30:53.531262Z,protezione_blocco_motivo,value_text,BME 24.5>=target+1.0 ma solo 28 min dallo spegnimento
+2026-09-16T01:31:10.085344Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:31:53.549128Z,protezione_blocco,value_text,min_30_da_spegnimento
+2026-09-16T01:31:53.569065Z,protezione_blocco_motivo,value_text,BME 24.5>=target+1.0 ma solo 29 min dallo spegnimento
+2026-09-16T01:32:10.1335Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:32:53.579155Z,clima_riaccendi_motivo,value_text,"BME 24.6>=target+1.0, passati >=30 min dallo spegnimento"
+2026-09-16T01:33:10.544396Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:34:10.220265Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:35:10.259666Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:36:10.313634Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:37:10.35147Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:38:10.409241Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:39:10.436431Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:40:10.48617Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:41:10.538264Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:42:10.57598Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T01:42:20.584437Z,sonno_non_osservabile,value_text,ASLEEP
+2026-09-16T01:42:20.603465Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T01:43:10.614941Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T01:44:10.650869Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T01:45:10.694136Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T01:46:10.809434Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T01:47:10.795416Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T01:48:10.845792Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T01:49:10.874313Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T01:50:10.930344Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T01:51:10.982349Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T01:52:11.026203Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T01:53:11.055415Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T01:54:11.096065Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T01:55:11.129364Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T01:56:11.173882Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T01:57:11.216831Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T01:58:11.283769Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T01:59:11.327058Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T02:00:11.366833Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T02:01:11.406979Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T02:02:11.454554Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T02:02:53.842028Z,clima_spegni_motivo,value_text,"tetto 30 min di accensione raggiunto (BME 23.6, target non raggiunto)"
+2026-09-16T02:03:11.492261Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T02:04:11.533028Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T02:05:11.566402Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T02:06:11.591652Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T02:07:11.644553Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T02:07:11.658954Z,sonno_segnale_recuperato_movimento_motivo,value_text,range distanza p10-p90 alto (86.1cm)
+2026-09-16T02:07:11.669342Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T02:07:51.679432Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T02:07:51.687293Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=74.6cm IQR=5.7cm p10-p90=11.5cm shift=5.7cm; RR non plausibile 3.0
+2026-09-16T02:08:11.693265Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:09:11.741073Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:10:12.097832Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:11:11.844648Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:12:11.881565Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:13:11.933584Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:14:11.974984Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:15:12.0292Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:16:12.08578Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:17:12.125172Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:18:12.1598Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:19:12.203745Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:20:12.252127Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:21:12.301664Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:22:12.432466Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:23:12.390428Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:23:32.402925Z,sonno_non_osservabile,value_text,ASLEEP
+2026-09-16T02:23:32.412941Z,sonno_non_osservabile_motivo,value_text,distanza non recente (13s)
+2026-09-16T02:23:42.415044Z,sonno_segnale_recuperato,value_text,ASLEEP
+2026-09-16T02:23:42.424379Z,sonno_segnale_recuperato_motivo,value_text,radar recuperato senza evidenza di risveglio; fermo: dist med=74.6cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR plausibile 23.0
+2026-09-16T02:24:12.44731Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:25:12.480212Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:26:12.518456Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:26:42.554192Z,sonno_non_osservabile,value_text,ASLEEP
+2026-09-16T02:26:42.577523Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T02:27:12.571337Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T02:28:12.611478Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T02:28:42.639395Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T02:28:42.651237Z,sonno_segnale_recuperato_movimento_motivo,value_text,IQR distanza alto (74.6cm)
+2026-09-16T02:29:02.65419Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T02:29:02.663657Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=74.6cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR non plausibile 1.0
+2026-09-16T02:29:12.663704Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:30:12.707467Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:31:12.763499Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:32:12.801478Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:32:54.068878Z,clima_riaccendi_motivo,value_text,"BME 24.5>=target+1.0, passati >=30 min dallo spegnimento"
+2026-09-16T02:33:12.860046Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:34:12.900113Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:35:12.933838Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:36:12.986873Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:37:13.038703Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:38:13.085264Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:39:13.13316Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:40:13.165254Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:41:13.205969Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:42:13.249323Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:43:13.288432Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:44:13.320401Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:45:13.358873Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:46:13.405215Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:47:13.730096Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:48:13.473243Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:49:13.522943Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:50:13.578454Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:51:13.631708Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:52:13.66542Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:52:53.699341Z,sonno_possible_awake,value_text,movimento
+2026-09-16T02:52:53.713653Z,sonno_possible_awake_motivo,value_text,movimento durante il sonno; range distanza p10-p90 alto (17.2cm)
+2026-09-16T02:53:13.722145Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T02:53:53.764476Z,sonno_non_osservabile,value_text,POSSIBLE_AWAKE
+2026-09-16T02:53:53.780679Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T02:54:13.776357Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T02:54:53.805382Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T02:54:53.814208Z,sonno_segnale_recuperato_movimento_motivo,value_text,range distanza p10-p90 alto (97.6cm)
+2026-09-16T02:55:03.816455Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T02:55:03.844782Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=91.8cm IQR=5.7cm p10-p90=5.7cm shift=0.0cm; RR plausibile 20.0
+2026-09-16T02:55:13.85404Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:56:13.889983Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:57:13.960958Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:58:13.988421Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T02:59:14.055907Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:00:14.097428Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:01:14.139964Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:02:14.202274Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:02:54.338316Z,clima_spegni_motivo,value_text,"tetto 30 min di accensione raggiunto (BME 23.5, target non raggiunto)"
+2026-09-16T03:03:14.243569Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:04:14.31435Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:05:14.348192Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:06:14.408608Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:07:14.435305Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:08:14.473353Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:09:14.505078Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:10:14.534776Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:11:14.60028Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:12:14.608451Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:13:14.66193Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:14:14.701493Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:15:14.730413Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:16:14.79039Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:17:14.835823Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:18:14.886082Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:19:14.922672Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:20:14.961499Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:21:15.005094Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:22:15.026692Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:23:15.074104Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:24:15.09715Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:25:15.135537Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:26:15.164903Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:27:15.218702Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:28:15.263078Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:29:15.315805Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:30:15.349405Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:31:15.412166Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:32:15.440176Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:33:15.474967Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:34:15.519126Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:35:15.562731Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:36:15.985805Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:37:15.652148Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:38:15.689244Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:38:54.557489Z,protezione_blocco,value_text,max_azioni
+2026-09-16T03:38:54.568897Z,protezione_blocco_motivo,value_text,"BME 24.5>=target+1.0: raggiunte 5 accensioni/notte, clima non piu' riattivato"
+2026-09-16T03:39:15.737072Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:40:15.789048Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:41:15.841058Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:42:15.89061Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:43:15.926862Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:44:15.974178Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:45:16.026383Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:46:16.073278Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:46:36.084076Z,sonno_possible_awake,value_text,movimento
+2026-09-16T03:46:36.096114Z,sonno_possible_awake_motivo,value_text,movimento durante il sonno; IQR distanza alto (11.5cm)
+2026-09-16T03:47:06.115937Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T03:47:06.139021Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=80.4cm IQR=5.7cm p10-p90=11.5cm shift=5.7cm; RR plausibile 19.0
+2026-09-16T03:47:16.125547Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:48:16.406775Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:48:56.185891Z,sonno_non_osservabile,value_text,ASLEEP
+2026-09-16T03:48:56.203019Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T03:49:16.194336Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T03:49:56.235242Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T03:49:56.250576Z,sonno_segnale_recuperato_movimento_motivo,value_text,range distanza p10-p90 alto (86.1cm)
+2026-09-16T03:50:16.241058Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T03:50:56.266737Z,sonno_non_osservabile,value_text,POSSIBLE_AWAKE
+2026-09-16T03:50:56.279393Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T03:51:16.275565Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T03:51:56.298068Z,sonno_segnale_recuperato,value_text,ASLEEP
+2026-09-16T03:51:56.317841Z,sonno_segnale_recuperato_motivo,value_text,radar recuperato senza evidenza di risveglio; fermo: dist med=86.1cm IQR=5.7cm p10-p90=5.7cm shift=5.7cm; RR plausibile 15.0
+2026-09-16T03:52:16.308038Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:53:16.357171Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:54:06.401841Z,sonno_possible_awake,value_text,movimento
+2026-09-16T03:54:06.409002Z,sonno_possible_awake_motivo,value_text,movimento durante il sonno; cambio posizione persistente (8.6cm)
+2026-09-16T03:54:16.419864Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T03:54:16.448999Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=80.4cm IQR=5.7cm p10-p90=11.5cm shift=5.7cm; RR plausibile 15.0
+2026-09-16T03:54:16.486205Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:55:16.460934Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:56:16.499502Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:57:16.554609Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:58:16.610862Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T03:58:36.63066Z,sonno_non_osservabile,value_text,ASLEEP
+2026-09-16T03:58:36.64426Z,sonno_non_osservabile_motivo,value_text,distanza non recente (12s)
+2026-09-16T03:58:46.637603Z,sonno_segnale_recuperato,value_text,ASLEEP
+2026-09-16T03:58:46.646225Z,sonno_segnale_recuperato_motivo,value_text,radar recuperato senza evidenza di risveglio; fermo: dist med=80.4cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR plausibile 20.0
+2026-09-16T03:59:06.653096Z,sonno_possible_awake,value_text,movimento
+2026-09-16T03:59:06.671465Z,sonno_possible_awake_motivo,value_text,movimento durante il sonno; range distanza p10-p90 alto (86.1cm)
+2026-09-16T03:59:16.654165Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T03:59:36.669567Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T03:59:36.685537Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=86.1cm IQR=5.7cm p10-p90=5.7cm shift=5.7cm; RR plausibile 8.0
+2026-09-16T04:00:16.712874Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:01:16.749038Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:02:16.799507Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:03:16.840789Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:04:16.8955Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:05:16.945787Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:06:17.019849Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:07:17.046889Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:08:17.097564Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:09:17.147397Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:10:17.193456Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:11:17.23422Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:12:17.275887Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:13:17.317971Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:14:07.360611Z,sonno_possible_awake,value_text,movimento
+2026-09-16T04:14:07.38636Z,sonno_possible_awake_motivo,value_text,movimento durante il sonno; IQR distanza alto (11.5cm)
+2026-09-16T04:14:17.382829Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T04:14:17.39612Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=86.1cm IQR=5.7cm p10-p90=11.5cm shift=0.0cm; RR plausibile 20.0
+2026-09-16T04:14:17.422583Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:14:27.383261Z,sonno_possible_awake,value_text,movimento
+2026-09-16T04:14:27.407961Z,sonno_possible_awake_motivo,value_text,movimento durante il sonno; IQR distanza alto (11.5cm)
+2026-09-16T04:14:37.387849Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T04:14:37.396987Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=86.1cm IQR=5.7cm p10-p90=11.5cm shift=0.0cm; RR plausibile 25.0
+2026-09-16T04:15:17.419647Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:16:17.467832Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:17:17.495491Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:17:57.531952Z,sonno_possible_awake,value_text,movimento
+2026-09-16T04:17:57.549849Z,sonno_possible_awake_motivo,value_text,movimento durante il sonno; IQR distanza alto (11.5cm)
+2026-09-16T04:18:17.537736Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T04:19:17.596314Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T04:19:17.607316Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=80.4cm IQR=5.7cm p10-p90=11.5cm shift=5.7cm; RR plausibile 15.0
+2026-09-16T04:19:17.620414Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:19:47.617127Z,sonno_possible_awake,value_text,movimento
+2026-09-16T04:19:47.626887Z,sonno_possible_awake_motivo,value_text,movimento durante il sonno; IQR distanza alto (11.5cm)
+2026-09-16T04:20:07.630755Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T04:20:07.651367Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=80.4cm IQR=5.7cm p10-p90=11.5cm shift=5.7cm; RR plausibile 17.0
+2026-09-16T04:20:17.634705Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:20:27.645032Z,sonno_possible_awake,value_text,movimento
+2026-09-16T04:20:27.654147Z,sonno_possible_awake_motivo,value_text,movimento durante il sonno; IQR distanza alto (11.5cm)
+2026-09-16T04:21:07.692615Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T04:21:07.703455Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=74.6cm IQR=5.7cm p10-p90=11.5cm shift=2.9cm; RR plausibile 19.0
+2026-09-16T04:21:17.706247Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:22:17.755379Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:23:17.806455Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:24:07.844472Z,sonno_non_osservabile,value_text,ASLEEP
+2026-09-16T04:24:07.855093Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T04:24:17.87523Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T04:25:07.893928Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T04:25:07.909067Z,sonno_segnale_recuperato_movimento_motivo,value_text,range distanza p10-p90 alto (68.9cm)
+2026-09-16T04:25:17.901626Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T04:25:17.942207Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=68.9cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR non recente (48s)
+2026-09-16T04:25:17.951952Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:26:17.963922Z,sonno_non_osservabile,value_text,ASLEEP
+2026-09-16T04:26:17.982838Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T04:26:17.996274Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T04:26:27.962598Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T04:26:27.973284Z,sonno_segnale_recuperato_movimento_motivo,value_text,range distanza p10-p90 alto (68.9cm)
+2026-09-16T04:26:37.966742Z,sonno_non_osservabile,value_text,POSSIBLE_AWAKE
+2026-09-16T04:26:37.984198Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T04:27:17.998491Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T04:27:38.02078Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T04:27:38.033403Z,sonno_segnale_recuperato_movimento_motivo,value_text,range distanza p10-p90 alto (74.6cm)
+2026-09-16T04:27:48.029112Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T04:27:48.042429Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=74.6cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR non recente (45s)
+2026-09-16T04:28:18.054388Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:29:18.107307Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:30:18.15356Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:31:18.197344Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:32:18.251566Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:33:18.303289Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:34:18.347223Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:35:18.388115Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:36:08.426718Z,sonno_possible_awake,value_text,movimento
+2026-09-16T04:36:08.450622Z,sonno_possible_awake_motivo,value_text,movimento durante il sonno; range distanza p10-p90 alto (17.2cm)
+2026-09-16T04:36:18.428906Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T04:36:28.435505Z,sonno_non_osservabile,value_text,POSSIBLE_AWAKE
+2026-09-16T04:36:28.452483Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T04:37:18.538193Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T04:38:18.501603Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T04:39:18.534086Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T04:40:18.578258Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T04:41:18.623505Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T04:42:18.667739Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T04:43:18.708474Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T04:44:08.752429Z,sonno_segnale_recuperato,value_text,ASLEEP
+2026-09-16T04:44:08.773503Z,sonno_segnale_recuperato_motivo,value_text,radar recuperato senza evidenza di risveglio; fermo: dist med=0.0cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR non plausibile 1.0
+2026-09-16T04:44:18.761233Z,sonno_possible_awake,value_text,movimento
+2026-09-16T04:44:18.787806Z,sonno_possible_awake_motivo,value_text,movimento durante il sonno; range distanza p10-p90 alto (74.6cm)
+2026-09-16T04:44:18.797502Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T04:45:08.797993Z,sonno_non_osservabile,value_text,POSSIBLE_AWAKE
+2026-09-16T04:45:08.812542Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T04:45:18.811455Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T04:45:18.823135Z,sonno_segnale_recuperato_movimento_motivo,value_text,IQR distanza alto (17.2cm)
+2026-09-16T04:45:18.830878Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T04:46:08.845882Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T04:46:08.863618Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=86.1cm IQR=0.0cm p10-p90=5.7cm shift=0.0cm; RR plausibile 7.0
+2026-09-16T04:46:18.854676Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:46:28.865809Z,sonno_possible_awake,value_text,movimento
+2026-09-16T04:46:28.879614Z,sonno_possible_awake_motivo,value_text,movimento durante il sonno; range distanza p10-p90 alto (17.2cm)
+2026-09-16T04:47:18.889152Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T04:47:38.908002Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T04:47:38.920975Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=80.4cm IQR=5.7cm p10-p90=11.5cm shift=2.9cm; RR plausibile 16.0
+2026-09-16T04:48:18.950095Z,sonno_non_osservabile,value_text,ASLEEP
+2026-09-16T04:48:18.962518Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T04:48:18.973732Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T04:48:28.978127Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T04:48:28.992661Z,sonno_segnale_recuperato_movimento_motivo,value_text,range distanza p10-p90 alto (80.4cm)
+2026-09-16T04:49:18.978592Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T04:49:18.996603Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=74.6cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR non plausibile 1.0
+2026-09-16T04:49:19.031474Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:50:19.260219Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:51:19.061029Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:52:19.117011Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:53:19.160834Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:54:19.201151Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:54:39.212241Z,sonno_possible_awake,value_text,movimento
+2026-09-16T04:54:39.230061Z,sonno_possible_awake_motivo,value_text,movimento durante il sonno; range distanza p10-p90 alto (17.2cm)
+2026-09-16T04:55:19.243937Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T04:56:09.283329Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T04:56:09.29377Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=80.4cm IQR=5.7cm p10-p90=11.5cm shift=5.7cm; RR plausibile 21.0
+2026-09-16T04:56:19.303151Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:57:09.333481Z,sonno_possible_awake,value_text,movimento
+2026-09-16T04:57:09.343907Z,sonno_possible_awake_motivo,value_text,movimento durante il sonno; IQR distanza alto (11.5cm)
+2026-09-16T04:57:19.338697Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T04:57:59.369562Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T04:57:59.391595Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=80.4cm IQR=5.7cm p10-p90=5.7cm shift=5.7cm; RR non recente (46s)
+2026-09-16T04:58:19.383656Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T04:59:19.444034Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:00:19.501597Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:01:19.554477Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:02:19.636415Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:03:19.635742Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:04:19.680051Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:05:19.711063Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:06:19.762327Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:07:19.814302Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:08:19.855388Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:09:19.906069Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:10:19.962693Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:11:20.01576Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:12:20.063144Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:13:20.109578Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:14:20.160071Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:15:20.296725Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:16:30.211476Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:17:30.262585Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:18:30.305083Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:19:30.354859Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:20:30.388536Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:21:30.409138Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:22:30.45913Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:23:30.492215Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:24:30.543925Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:25:30.595871Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:26:30.626934Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:27:30.915805Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:28:30.70727Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:29:30.745855Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:30:30.799447Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:31:30.843578Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:32:30.887287Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:33:30.923581Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:34:30.974602Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:35:31.031369Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:36:31.079262Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:37:11.109611Z,sonno_non_osservabile,value_text,ASLEEP
+2026-09-16T05:37:11.125369Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T05:37:31.126592Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T05:38:11.155344Z,sonno_segnale_recuperato,value_text,ASLEEP
+2026-09-16T05:38:11.171203Z,sonno_segnale_recuperato_motivo,value_text,radar recuperato senza evidenza di risveglio; fermo: dist med=86.1cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR non plausibile 0.0
+2026-09-16T05:38:21.161164Z,sonno_non_osservabile,value_text,ASLEEP
+2026-09-16T05:38:21.17361Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T05:38:31.1716Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T05:39:31.344227Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T05:39:41.470181Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T05:39:41.477551Z,sonno_segnale_recuperato_movimento_motivo,value_text,range distanza p10-p90 alto (91.8cm)
+2026-09-16T05:40:31.30757Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T05:40:31.319646Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=91.8cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR plausibile 14.0
+2026-09-16T05:40:31.365521Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:41:31.33997Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:42:31.380973Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:43:31.415385Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:44:31.461174Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:45:31.495494Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:46:31.541421Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:47:31.596089Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:48:31.633214Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:49:31.688117Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:50:31.743332Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:51:31.789769Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:52:31.835106Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:53:31.885147Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:54:31.943311Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:55:31.999234Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:56:32.063656Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:57:32.123917Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:58:32.170105Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T05:59:32.204022Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T06:00:32.235083Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T06:01:32.284103Z,sonno_non_osservabile,value_text,ASLEEP
+2026-09-16T06:01:32.305698Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T06:01:32.328704Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T06:02:32.322844Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T06:02:32.353848Z,sonno_segnale_recuperato_movimento_motivo,value_text,range distanza p10-p90 alto (80.4cm)
+2026-09-16T06:02:32.379164Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T06:02:42.341371Z,sonno_non_osservabile,value_text,POSSIBLE_AWAKE
+2026-09-16T06:02:42.349975Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T06:02:52.337407Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T06:02:52.349927Z,sonno_segnale_recuperato_movimento_motivo,value_text,IQR distanza alto (80.4cm)
+2026-09-16T06:03:02.33868Z,sonno_non_osservabile,value_text,POSSIBLE_AWAKE
+2026-09-16T06:03:02.348333Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T06:03:32.358676Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T06:04:32.67503Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T06:05:32.445454Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T06:06:12.47888Z,sonno_segnale_recuperato,value_text,ASLEEP
+2026-09-16T06:06:12.49746Z,sonno_segnale_recuperato_motivo,value_text,radar recuperato senza evidenza di risveglio; fermo: dist med=0.0cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR non plausibile 0.0
+2026-09-16T06:06:22.491757Z,sonno_non_osservabile,value_text,ASLEEP
+2026-09-16T06:06:22.504778Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T06:06:32.491671Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T06:07:32.544039Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T06:08:32.601183Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T06:09:32.645604Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T06:09:32.66198Z,sonno_segnale_recuperato_movimento_motivo,value_text,range distanza p10-p90 alto (86.1cm)
+2026-09-16T06:09:32.670114Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T06:10:32.692772Z,sonno_stato_rilevatore,value_text,POSSIBLE_AWAKE
+2026-09-16T06:11:02.714612Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T06:11:02.733807Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=63.1cm IQR=0.0cm p10-p90=5.7cm shift=2.9cm; RR plausibile 16.0
+2026-09-16T06:11:32.745184Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T06:12:32.787045Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T06:13:32.834911Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T06:14:32.888679Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T06:15:32.936242Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T06:16:32.996586Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T06:17:33.014722Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T06:18:33.05599Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T06:19:03.065211Z,sonno_possible_awake,value_text,movimento
+2026-09-16T06:19:03.073498Z,sonno_possible_awake_motivo,value_text,movimento durante il sonno; range distanza p10-p90 alto (17.2cm)
+2026-09-16T06:19:33.092005Z,sonno_non_osservabile,value_text,POSSIBLE_AWAKE
+2026-09-16T06:19:33.115844Z,sonno_non_osservabile_motivo,value_text,target assente
+2026-09-16T06:19:33.151036Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T06:20:33.129216Z,sonno_stato_rilevatore,value_text,UNOBSERVABLE
+2026-09-16T06:21:23.16115Z,sonno_segnale_recuperato_movimento,value_text,POSSIBLE_AWAKE
+2026-09-16T06:21:23.171715Z,sonno_segnale_recuperato_movimento_motivo,value_text,range distanza p10-p90 alto (63.1cm)
+2026-09-16T06:21:33.169362Z,sonno_movimento_nel_sonno,value_text,ASLEEP
+2026-09-16T06:21:33.178032Z,sonno_movimento_nel_sonno_motivo,value_text,movimento terminato prima di 90s; fermo: dist med=57.4cm IQR=0.0cm p10-p90=5.7cm shift=0.0cm; RR non recente (34s)
+2026-09-16T06:21:33.187006Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T06:22:33.224984Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T06:23:33.275889Z,sonno_stato_rilevatore,value_text,ASLEEP
+2026-09-16T06:24:13.300897Z,sonno_possible_awake,value_text,movimento
+2026-09-16T06:24:13.314818Z,sonno_possible_awake_motivo,value_text,movimento durante il sonno; IQR distanza alto (11.5cm)
+2026-09-16T06:24:26.337219Z,audio_ferma_motivo,value_text,fine pre-sonno
+2026-09-16T06:24:28.967057Z,luci_spegni_motivo,value_text,spegnimento reale

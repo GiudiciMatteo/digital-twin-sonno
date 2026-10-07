@@ -1,0 +1,32 @@
+timestamp_utc,measurement,field,value
+2026-09-12T01:02:48.273524Z,fase,value_text,NOTTE_CONTROLLO
+2026-09-12T01:02:48.525271Z,sistema_stato,value_text,ambiente_fisso
+2026-09-12T01:02:48.560003Z,sistema_stato_motivo,value_text,"controllo: nessuna attuazione, solo rilevamento"
+2026-09-12T01:02:48.665661Z,fase,value_text,attesa_addormentamento
+2026-09-12T01:02:48.675349Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-12T01:03:48.182032Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-12T01:04:48.207129Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-12T01:05:48.238146Z,sonno_possible_sleep,value_text,3.0min
+2026-09-12T01:05:48.284157Z,sonno_possible_sleep_motivo,value_text,candidato sonno: fermo: dist med=74.6cm IQR=0.0cm p10-p90=5.7cm shift=0.0cm; RR plausibile 19.0
+2026-09-12T01:05:48.309465Z,sonno_stato_rilevatore,value_text,POSSIBLE_SLEEP
+2026-09-12T01:05:58.241338Z,sonno_reset_immobilita,value_text,3.2min
+2026-09-12T01:05:58.271557Z,sonno_reset_immobilita_motivo,value_text,range distanza p10-p90 alto (23.0cm)
+2026-09-12T01:06:48.266856Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-12T01:07:48.281824Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-12T01:08:48.303008Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-12T01:09:48.337881Z,sonno_possible_sleep,value_text,3.0min
+2026-09-12T01:09:48.352067Z,sonno_possible_sleep_motivo,value_text,candidato sonno: fermo: dist med=80.4cm IQR=5.7cm p10-p90=5.7cm shift=0.0cm; RR plausibile 7.0
+2026-09-12T01:09:48.361643Z,sonno_stato_rilevatore,value_text,POSSIBLE_SLEEP
+2026-09-12T01:10:48.387769Z,sonno_stato_rilevatore,value_text,POSSIBLE_SLEEP
+2026-09-12T01:11:08.404213Z,sonno_reset_immobilita,value_text,4.3min
+2026-09-12T01:11:08.4203Z,sonno_reset_immobilita_motivo,value_text,IQR distanza alto (11.5cm)
+2026-09-12T01:11:48.438443Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-12T01:12:48.481048Z,sonno_stato_rilevatore,value_text,AWAKE
+2026-09-12T01:13:28.517383Z,sonno_possible_sleep,value_text,3.0min
+2026-09-12T01:13:28.533247Z,sonno_possible_sleep_motivo,value_text,candidato sonno: fermo: dist med=86.1cm IQR=0.0cm p10-p90=0.0cm shift=0.0cm; RR plausibile 18.0
+2026-09-12T01:13:48.53916Z,sonno_stato_rilevatore,value_text,POSSIBLE_SLEEP
+2026-09-12T01:14:48.601047Z,sonno_stato_rilevatore,value_text,POSSIBLE_SLEEP
+2026-09-12T01:15:48.652Z,sonno_stato_rilevatore,value_text,POSSIBLE_SLEEP
+2026-09-12T01:16:28.68644Z,sonno_addormentamento_rilevato,value_text,6.0min
+2026-09-12T01:16:29.888758Z,sonno_addormentamento_rilevato_motivo,value_text,presenza + immobilita confermate; fermo: dist med=86.1cm IQR=5.7cm p10-p90=5.7cm shift=2.9cm; RR plausibile 15.0
+2026-09-12T01:16:29.966255Z,fase,value_text,NOTTE_CONTROLLO_fine
