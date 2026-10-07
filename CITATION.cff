@@ -9,10 +9,8 @@ authors:
 type: software
 license: MIT
 version: "1.0.1"
-date-released: "2026-10-08"   # <-- metti la data effettiva della release
-# Dopo la pubblicazione su Zenodo, inserisci qui il CONCEPT DOI
-# (quello indicato come "Cite all versions"), non il DOI della singola versione:
-# doi: "10.5281/zenodo.XXXXXXX"
+date-released: "2026-10-07"   
+doi: "10.5281/zenodo.23223401"
 url: "https://github.com/GiudiciMatteo/digital-twin-sonno"
 repository-code: "https://github.com/GiudiciMatteo/digital-twin-sonno"
 keywords:
