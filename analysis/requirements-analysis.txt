@@ -1,0 +1,3 @@
+# Dipendenze per lo script di analisi incluso.
+numpy>=1.24
+pandas>=2.0
