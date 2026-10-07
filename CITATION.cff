@@ -4,13 +4,17 @@ title: "Digital Twin del sonno a ciclo chiuso: monitoraggio mmWave e attuazione 
 authors:
   - family-names: "Giudici"
     given-names: "Matteo"
+    affiliation: "Università degli Studi Guglielmo Marconi"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # aggiungi se ne hai uno
 type: software
 license: MIT
-# Compilare al momento del rilascio su Zenodo:
-version: "1.0.0"
-date-released: "2026-01-01"
+version: "1.0.1"
+date-released: "2026-10-08"   # <-- metti la data effettiva della release
+# Dopo la pubblicazione su Zenodo, inserisci qui il CONCEPT DOI
+# (quello indicato come "Cite all versions"), non il DOI della singola versione:
 # doi: "10.5281/zenodo.XXXXXXX"
-# url: "https://github.com/UTENTE/digital-twin-sonno"
+url: "https://github.com/GiudiciMatteo/digital-twin-sonno"
+repository-code: "https://github.com/GiudiciMatteo/digital-twin-sonno"
 keywords:
   - "digital twin"
   - "sleep monitoring"

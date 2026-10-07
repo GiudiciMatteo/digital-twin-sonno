@@ -1,7 +1,7 @@
-Licenza dei DATI (cartella data/ e figure/)
-===========================================
+Licenza dei DATI (cartella data/)
+=================================
 
-I dati e le figure contenuti in questo repository sono distribuiti con licenza
+I dati contenuti in questo repository sono distribuiti con licenza
 
     Creative Commons Attribution 4.0 International (CC BY 4.0)
 
@@ -16,5 +16,8 @@ commerciali, a condizione di citare adeguatamente la fonte (attribuzione).
 Attribuzione richiesta:
     Matteo Giudici, "Digital Twin del sonno a ciclo chiuso" (2026).
 
-Nota: il codice sorgente (cartelle src/ e firmware/) NON è coperto da questa
+I dati si riferiscono all'autore, che e' anche il soggetto dello studio e ne
+autorizza la pubblicazione (vedi README).
+
+Nota: il codice sorgente (cartelle src/ e firmware/) NON e' coperto da questa
 licenza, ma dalla licenza MIT riportata nel file LICENSE.

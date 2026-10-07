@@ -1,5 +1,8 @@
 # Digital Twin del sonno a ciclo chiuso
 
+<!-- Dopo la pubblicazione su Zenodo, incolla qui il badge del CONCEPT DOI:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) -->
+
 Prototipo di ricerca per il monitoraggio del sonno con sensoristica
 *contactless* (radar mmWave 60 GHz) e attuazione automatica dell'ambiente
 (luci, clima, audio) in un ciclo chiuso fisico → digitale → fisico.
@@ -41,9 +44,18 @@ sicurezza e modifica l'ambiente, senza intervento manuale durante la notte.
 ```
 firmware/   configurazioni ESPHome dei nodi + secrets.yaml.example
 src/        codice Python di runtime + config.ini.example
-data/       dati sperimentali + SCHEMA_influxdb.md (struttura del database)
+data/       dati sperimentali (diario + export per-notte) + schema del database
 sound/      posizione del file di rumore bianco (non incluso: copyright)
 ```
+
+## Dati personali e consenso alla pubblicazione
+
+I dati fisiologici (frequenza cardiaca e respiratoria, distanza e presenza
+rilevate dal radar) e gli orari di sonno contenuti in questo repository si
+riferiscono all'autore, Matteo Giudici, che è anche il soggetto dello studio
+("SOGGETTO 1"). In quanto interessato e titolare di tali dati, l'autore ne
+autorizza espressamente la pubblicazione e il riuso secondo la licenza
+indicata (CC BY 4.0 per i dati). I dati non riguardano terzi.
 
 ## Configurazione
 
@@ -51,9 +63,9 @@ Credenziali e segreti **non** sono versionati. Prima dell'uso:
 
 ```bash
 # runtime
-cp src/config.ini.example      src/config.ini      # e compilare i valori
+cp src/config.ini.example      src/config.ini           # e compilare i valori
 # firmware
-cp firmware/secrets.yaml.example firmware/secrets.yaml  # e compilare i valori
+cp firmware/secrets.yaml.example firmware/secrets.yaml   # e compilare i valori
 ```
 
 `config.ini` deve restare nella **stessa cartella** degli script (`src/`):
@@ -64,9 +76,6 @@ i programmi lo cercano accanto a sé stessi.
 ```bash
 pip install -r requirements.txt
 ```
-
-(Vedi `requirements.txt`: prima di un rilascio citabile, fissare le versioni
-esatte con `pip freeze`.)
 
 ## Esecuzione
 
@@ -83,27 +92,30 @@ python3 src/controllore.py --controllo   # notte di controllo (solo monitoraggio
 
 ## Dati e riproducibilità
 
-Il diario del sonno è de-identificato (`data/diario_sonno.csv`). La struttura
-del database (organization, bucket, measurements, tag, campi) e le istruzioni
-per ricrearlo sono in `data/SCHEMA_influxdb.md`. Gli export InfluxDB di radar e
-controllore possono essere aggiunti in `data/` (vedi `data/README.md`).
+La cartella `data/` contiene il diario del sonno, gli export per-notte di radar,
+BME280 e controllore, e lo schema del database (`data/SCHEMA_influxdb.md`).
+I dettagli dei file e del formato sono in `data/README.md`. I valori notte per
+notte permettono di ricostruire le statistiche aggregate del Capitolo 4.
 
 Gli script di analisi che generano le figure e le statistiche della tesi
 **non sono inclusi** in questo repository: esso documenta il sistema (firmware,
 raccolta dati, controllo a ciclo chiuso) e ne rende disponibili i dati e lo
 schema, non la pipeline di elaborazione.
 
-**Sicurezza.** Da questo repository sono stati esclusi credenziali, token,
-password e identificativi di rete dei dispositivi. I file `config.ini` e
-`secrets.yaml` reali non sono versionati (`.gitignore`); al loro posto ci sono
-i rispettivi `*.example`.
+**Sicurezza e privacy dei dati.** Gli export pubblicati sono filtrati per
+contenere solo le misure usate nella tesi (radar, BME280, decisioni del
+controllore, azioni sugli attuatori); sono esclusi diagnostica dei nodi,
+indirizzi IP, nomi delle luci Hue e altri parametri della casa, oltre a
+credenziali e token. I file `config.ini` e `secrets.yaml` reali non sono
+versionati (`.gitignore`); al loro posto ci sono i rispettivi `*.example`.
 
 ## Licenze
 
 - Codice (`src/`, `firmware/`): **MIT** — vedi `LICENSE`.
-- Dati e figure (`data/`, `figures/`): **CC BY 4.0** — vedi `LICENSE-data`.
+- Dati (`data/`): **CC BY 4.0** — vedi `LICENSE-data`.
 
 ## Citazione
 
-Vedi `CITATION.cff`. Al momento del rilascio, collegare il repository a Zenodo
-per ottenere un DOI citabile e inserirlo qui e nella tesi.
+Vedi `CITATION.cff`. Il repository è archiviato su Zenodo: cita il **concept
+DOI** (quello indicato come *"Cite all versions"*, che punta sempre all'ultima
+versione) insieme al link di questo repository.
