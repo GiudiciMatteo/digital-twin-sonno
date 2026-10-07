@@ -1,7 +1,6 @@
 # Digital Twin del sonno a ciclo chiuso
 
-<!-- Dopo la pubblicazione su Zenodo, incolla qui il badge del CONCEPT DOI:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23223401.svg)](https://doi.org/10.5281/zenodo.23223401)
 
 Prototipo di ricerca per il monitoraggio del sonno con sensoristica
 *contactless* (radar mmWave 60 GHz) e attuazione automatica dell'ambiente
